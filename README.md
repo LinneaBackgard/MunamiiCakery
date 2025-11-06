@@ -6,10 +6,10 @@ Built using **React** and **Bootstrap**.
 ---
 
 ## Components
-- **Navbar** – simple top navigation  
+- **Navbar** – top navigation bar  
 - **Hero** – intro section with headline and call-to-action  
 - **ProductGrid** – displays cake items using data from JSON  
-- **Footer** – contact and social links  
+- **Footer** – contact info and social links  
 
 ---
 
@@ -21,20 +21,20 @@ Built using **React** and **Bootstrap**.
 
 ---
 
-## Structure
-
+## Project Structure
+```text
 my-app/
 ├── public/
-│ ├── images/
-│ └── index.html
+│   ├── images/
+│   └── index.html
 ├── src/
-│ ├── components/
-│ │ ├── Navbar/
-│ │ ├── Hero/
-│ │ ├── ProductGrid/
-│ │ └── Footer/
-│ ├── data/
-│ │ └── packagedata.json
-│ ├── App.js
-│ └── index.js
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── Hero/
+│   │   ├── ProductGrid/
+│   │   └── Footer/
+│   ├── data/
+│   │   └── packagedata.json
+│   ├── App.js
+│   └── index.js
 └── package.json
